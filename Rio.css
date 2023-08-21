@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#allpage {
+    height: 100vh;
+}
+
+#allheader {
+    background-image: url("img/rio-bg.jpg");
+    height: 36em;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+#icon {
+    width: 30vw;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #004a80;
+    font-size: larger;
+
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar a:hover {
+    cursor: pointer;
+
+}
+
+#main {
+    width: 100%;
+    background-image: url("img/rio-bg2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #008fbe;
+    padding: 10px;
+}
+
+#description{
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 20px;
+    font: weight 80px;;
+    
+
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color:  white;
+
+}
+.card{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 5px 5px 5px 5px;
+    width: 30%;
+    background-color: rgba(6, 6, 6, 0.7);
+    text-align: center;
+
+
+}
+
+.card img{
+    height: 15rem;
+
+}
+
+#footer{
+    background-color:#008fbe;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+#footerLeft{
+    color:black;
+    font-weight: bolder;
+    
+}
+#sub button{
+    background-color: black;
+    color: white;
+}
+
+#footerCenter{
+    font-weight: bolder;
+}
+
+#footerСenter2{
+    font-weight: bolder;
+}
+
+#footerRight {
+    display: flex;
+   flex-direction: column;
+   
+}
+#icons {
+gap: 10px;
+ justify-content: space-around;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
